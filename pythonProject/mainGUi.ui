@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainGUI</class>
+ <widget class="QMainWindow" name="mainGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1220</width>
+    <height>826</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>mainGUI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" rowspan="2">
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="maximumSize">
+       <size>
+        <width>196</width>
+        <height>819</height>
+       </size>
+      </property>
+      <property name="autoExpandDelay">
+       <number>0</number>
+      </property>
+      <property name="indentation">
+       <number>20</number>
+      </property>
+      <property name="rootIsDecorated">
+       <bool>true</bool>
+      </property>
+      <property name="columnCount">
+       <number>1</number>
+      </property>
+      <attribute name="headerDefaultSectionSize">
+       <number>125</number>
+      </attribute>
+      <attribute name="headerShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>操作标签栏</string>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>数据展示</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>直方图</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>词云</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>饼状图</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>案例操作</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>导入</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>导出</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>编辑模板</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>日报</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>日报模板定制</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>日报导入</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>日报导出</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>日报编辑</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>工位解析</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>SET</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MMI2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DBC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CW</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>常用网址</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>自检&amp;考勤&amp;出差</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>东莞本地团队</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DFT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DFM</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>常用脚本&amp;指令</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>老化相关</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>截图</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Linux</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>getMTKlog</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>getlog</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>fastboot</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bat脚本</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>adb</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>帮助</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,0,0,0,0,0,0,0">
+      <property name="spacing">
+       <number>20</number>
+      </property>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>问题单</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>DMD</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>查询</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>项目：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="maxVisibleItems">
+         <number>30</number>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>20</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>jade</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Amber</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>平台：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>B</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>888</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>状态：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_3">
+        <item>
+         <property name="text">
+          <string>open</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>traking</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>close</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1220</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actiondaki"/>
+    <addaction name="actionbaocun"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>管理员</string>
+    </property>
+    <addaction name="actiondenlu"/>
+    <addaction name="actiontuichu"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actiondaki">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionbaocun">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actiondenlu">
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </action>
+  <action name="actiontuichu">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>tableView</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>694</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>663</x>
+     <y>187</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
